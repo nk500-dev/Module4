@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>Javascript Objects</h2>
+        <p>There are two different ways to access an object property</p>
+        <p>You can use .property or ["property"]</p>
+        <p id="demo"></p>
+        <script>
+            // var variablename = { propertyname1: value1, propertyname2: value2 };
+            var person= {
+                name: "Neeraj", 
+                age: 14,
+                height: 185.5
+            }
+            document.getElementById("demo").innerHTML= person.name + " is " + person.age + " years old and " + person["height"] + " centimeters tall "
+        </script>
+    </body>
+</html>
